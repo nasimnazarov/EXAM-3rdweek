@@ -87,7 +87,7 @@ body {
 }
 .container nav ul li {
   display: flex;
-  padding: 0 5%;
+  padding: 0 2%;
 }
 .container nav ul .brandservice {
   font-size: 24px;
@@ -537,6 +537,10 @@ body {
   padding: 6px 20px;
 }
 
+.hiddendiv {
+  display: none;
+}
+
 .contacts {
   margin: 50px 0;
   text-align: center;
@@ -608,4 +612,110 @@ body {
 footer {
   text-align: center;
   color: grey;
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin: 0 2%;
+  }
+  #hideall {
+    display: none;
+  }
+  .center {
+    width: 100%;
+  }
+  .chosen .columns {
+    display: block;
+  }
+  .chosen .columns .hide {
+    display: none;
+  }
+  .fix .fixes {
+    display: block;
+  }
+  .fix .fixes .fixcolumn2 {
+    width: 100%;
+  }
+  .fix .fixes .fixcolumn2 .s7 .parag {
+    display: block;
+  }
+  .fix .fixes .fixcolumn2 .hiden {
+    display: none;
+  }
+  .fixbrand .brands {
+    display: block;
+  }
+  .fixbrand .brands .two {
+    width: 100%;
+  }
+  .fixbrand .brands .two .first {
+    text-align: center;
+  }
+  .fixbrand .brands .hiden {
+    display: none;
+  }
+  .request {
+    display: none;
+  }
+  .action .change .rub {
+    display: block;
+  }
+  .callmaster {
+    display: none;
+  }
+  .hiddendiv {
+    text-align: center;
+    display: block;
+  }
+  .hiddendiv input {
+    margin: 20px 0;
+    width: 90%;
+    text-align: center;
+    display: block;
+    padding: 10px 20px;
+    border-color: lightgray;
+    border-style: solid;
+    color: rgb(186, 186, 186);
+  }
+  .hiddendiv button {
+    border-color: rgb(255, 0, 92);
+    padding: 10px 16px;
+    background-color: rgb(255, 0, 92);
+    color: white;
+  }
+  .howwework .zvonok3 {
+    display: block;
+  }
+  .howwework .zvonok3 .zvonok {
+    margin: 5% 0;
+  }
+  .howwework .agreement {
+    display: block;
+  }
+  .service {
+    display: none;
+  }
+  .callkurer {
+    display: none;
+  }
+  .contacts .threeall .three {
+    display: block;
+  }
+  .contacts .threeall .three .tel {
+    border: none;
+    width: 80%;
+  }
+  .paragraph .hidepar {
+    display: none;
+  }
+  .about {
+    display: block;
+  }
+  .about .info {
+    border: none;
+    width: 80%;
+  }
+  .about .info .hiden {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */

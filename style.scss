@@ -88,7 +88,7 @@ body{
 
             li{
                 display: flex;
-                padding:0 5%;
+                padding:0 2%;
 
             }
             .brandservice{
@@ -601,6 +601,9 @@ bbox-shadow: 0px 0px 30px rgba(0, 133, 255, 0.15);
 
     }
 }
+.hiddendiv{
+    display: none;
+}
 .contacts{
     margin: 50px 0;
     text-align: center;
@@ -683,6 +686,148 @@ footer{
     text-align: center;
     color: grey;
 }
+
+
+@media (max-width:600px) {
+    .container{
+margin: 0 2%;
+
+    }
+
+
+    #hideall{
+        display: none;
+    }
+    .center{
+        width: 100%;
+    }
+    .chosen{
+        .columns{
+            display: block;
+            .hide{
+                display: none;
+            }
+        }
+    }
+    .fix{
+        .fixes{
+            display: block;
+            .fixcolumn2{
+                width: 100%;
+                .s7{
+                    .parag{
+                        display: block;
+                    }
+                }
+                .hiden{
+                    display: none;
+                }
+            }
+        }
+    }
+    .fixbrand{
+        .brands{
+            display: block;
+            .two{
+
+                width: 100%;
+                .first{
+
+                    text-align: center;
+                }
+            }
+            .hiden{
+                display: none;
+            }
+        }
+    }
+    .request{
+        display: none;
+    }
+    .action{
+        .change{
+            .rub{
+                display: block;
+            }
+        }
+    }
+    .callmaster{
+        display: none;
+    }
+    .hiddendiv{
+        text-align: center;
+        display: block;
+        input{
+            margin: 20px 0;
+            width: 90%;
+            text-align: center;
+            display: block;
+            padding: 10px 20px;
+            border-color: lightgray;
+            border-style: solid;
+            color: rgb(186, 186, 186);
+        }
+        button{
+                border-color: rgba(255, 0, 92, 1);
+            padding: 10px 16px;
+            background-color: rgba(255, 0, 92, 1);
+            color: white
+            ;
+        }
+    }
+    .howwework{
+        .zvonok3{
+            display: block;
+            .zvonok{
+                margin: 5% 0;
+            }
+        }
+        .agreement{
+            display: block;
+        }
+    }
+    .service{
+        display: none;
+    }
+    .callkurer{
+        display: none;
+    }
+    .contacts{
+
+        .threeall{
+
+            .three{
+
+
+                display: block;
+                .tel{
+                    border: none;
+                width: 80%;
+                }
+            }
+        }
+    }
+    .paragraph{
+        .hidepar{
+            display: none;
+        }
+
+    }
+    .about{
+        display: block;
+        .info{
+            border: none;
+            width: 80%;
+            .hiden{
+                display: none;
+            }
+        }
+    }
+
+}
+
+
+
 
 
 
