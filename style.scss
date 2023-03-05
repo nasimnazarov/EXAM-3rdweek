@@ -88,7 +88,7 @@ body{
 
             li{
                 display: flex;
-                padding:0 2%;
+                padding:0 4%;
 
             }
             .brandservice{
@@ -192,8 +192,9 @@ bbox-shadow: 0px 0px 30px rgba(0, 133, 255, 0.15);
             }
             .s77{
                 background-image: url(images/klipartz\ 4.png);
-                background-position: bottom right;
+                background-position: top right;
                 background-repeat: no-repeat;
+                bbackground-size: 20%;
                 .parag{
 
                     padding: 4% 5% ;
@@ -216,7 +217,7 @@ bbox-shadow: 0px 0px 30px rgba(0, 133, 255, 0.15);
             }
             .s76{
                 background-image: url(images/image\ 38.png);
-                background-position: bottom right;
+                background-position: top right;
                 background-repeat: no-repeat;
                 .parag{
 
@@ -366,6 +367,9 @@ bbox-shadow: 0px 0px 30px rgba(0, 133, 255, 0.15);
                         width: 5%;
                     }
                 }
+                .pink{
+                    display: flex;
+                }
 
         box-shadow: 0px 0px 30px rgba(0, 132, 255, 0.144);
                 margin: 3% 0;
@@ -411,10 +415,13 @@ bbox-shadow: 0px 0px 30px rgba(0, 133, 255, 0.15);
 }
 
 .request{
+
     margin: 50px 0;
     text-align: center;
+
     img{
-        display: block;
+        text-align: center;
+
     }
     .reqcolumn{
         text-align: left;
@@ -427,8 +434,33 @@ bbox-shadow: 0px 0px 30px rgba(0, 133, 255, 0.15);
 
     }
     button{
-        background-color: white;
-        padding: 10px 20px;
+        display: flex;
+
+        align-items: center;
+        
+        box-shadow: 0px 0px 30px rgba(0, 35, 125, 0.237);
+        background-color: rgb(255, 255, 255);
+        border-color:rgba(255, 0, 92, 1) ;
+        padding: 10px 30px;
+        border-style: none;
+        color: rgb(0, 0, 0);
+        width: 200px;
+        img{
+            wwidth: 5%;
+        }
+        
+
+    }
+    .requestbutton22{
+        box-shadow: 0px 0px 30px rgba(0, 35, 125, 0.237);
+        align-items: center;
+        display: flex;
+        background-color: rgba(255, 0, 92, 1);
+        border-color:rgba(255, 0, 92, 1) ;
+        padding: 10px 30px;
+        border-style: none;
+        color: rgb(0, 0, 0);
+        width: 220px;
     }
 }
 
@@ -445,6 +477,17 @@ bbox-shadow: 0px 0px 30px rgba(0, 133, 255, 0.15);
         background-position: bottom right;
         .rub{
             display: flex;
+        }
+        button{
+            box-shadow: 0px 0px 30px rgba(0, 35, 125, 0.237);
+            align-items: center;
+            
+            background-color: rgba(255, 0, 92, 1);
+            border-color:rgba(255, 0, 92, 1) ;
+            padding: 10px 30px;
+            border-style: none;
+            color: rgb(255, 255, 255);
+            wwidth: 220px;
         }
     }
 }
@@ -478,6 +521,9 @@ bbox-shadow: 0px 0px 30px rgba(0, 133, 255, 0.15);
                 padding: 6px 20px;
                 margin: 5% 0;
                 background: rgba(255, 0, 92, 1);
+                color: white;
+                border-color: rgba(255, 0, 92, 1);
+                border-style: solid;
 
             }
             input{
@@ -748,6 +794,163 @@ margin: 0 2%;
         .change{
             .rub{
                 display: block;
+            }
+        }
+    }
+    .callmaster{
+        display: none;
+    }
+    .hiddendiv{
+        text-align: center;
+        display: block;
+        input{
+            margin: 20px 0;
+            width: 90%;
+            text-align: center;
+            display: block;
+            padding: 10px 20px;
+            border-color: lightgray;
+            border-style: solid;
+            color: rgb(186, 186, 186);
+        }
+        button{
+                border-color: rgba(255, 0, 92, 1);
+            padding: 10px 16px;
+            background-color: rgba(255, 0, 92, 1);
+            color: white
+            ;
+        }
+    }
+    .howwework{
+        .zvonok3{
+            display: block;
+            .zvonok{
+                margin: 5% 0;
+            }
+        }
+        .agreement{
+            display: block;
+        }
+    }
+    .service{
+        display: none;
+    }
+    .callkurer{
+        display: none;
+    }
+    .contacts{
+
+        .threeall{
+
+            .three{
+
+
+                display: block;
+                .tel{
+                    border: none;
+                width: 80%;
+                }
+            }
+        }
+    }
+    .paragraph{
+        .hidepar{
+            display: none;
+        }
+
+    }
+    .about{
+        display: block;
+        .info{
+            border: none;
+            width: 80%;
+            .hiden{
+                display: none;
+            }
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1000px) {
+    .container{
+margin: 0 2%;
+
+    }
+
+
+    #hideall{
+        display: none;
+    }
+    .center{
+        width: 100%;
+    }
+    .chosen{
+        .columns{
+            display: block;
+            .hide{
+                display: none;
+            }
+        }
+    }
+    .fix{
+        .fixes{
+            display: block;
+            .fixcolumn2{
+                width: 100%;
+                .s7{
+                    .parag{
+                        display: block;
+                    }
+                }
+                .hiden{
+                    display: none;
+                }
+            }
+        }
+    }
+    .fixbrand{
+        .brands{
+            display: block;
+            .two{
+
+                width: 100%;
+                .first{
+
+                    text-align: center;
+                }
+            }
+            .hiden{
+                display: none;
+            }
+        }
+    }
+    .request{
+        display: none;
+    }
+    .action{
+        .change{
+            .rub{
+                display: block;
+            }
+            button{
+                background-color: rgba(255, 0, 92, 1);
+                color: white;
+                margin: 1% 0;
+                width: 100%;
+                padding: 10px;
+                border-color: rgba(255, 0, 92, 1);
+                border-style: none;
             }
         }
     }

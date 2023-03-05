@@ -87,7 +87,7 @@ body {
 }
 .container nav ul li {
   display: flex;
-  padding: 0 2%;
+  padding: 0 4%;
 }
 .container nav ul .brandservice {
   font-size: 24px;
@@ -179,8 +179,9 @@ body {
 }
 .fix .fixes .fixcolumn2 .s77 {
   background-image: url(images/klipartz\ 4.png);
-  background-position: bottom right;
+  background-position: top right;
   background-repeat: no-repeat;
+  bbackground-size: 20%;
 }
 .fix .fixes .fixcolumn2 .s77 .parag {
   padding: 4% 5%;
@@ -202,7 +203,7 @@ body {
 }
 .fix .fixes .fixcolumn2 .s76 {
   background-image: url(images/image\ 38.png);
-  background-position: bottom right;
+  background-position: top right;
   background-repeat: no-repeat;
 }
 .fix .fixes .fixcolumn2 .s76 .parag {
@@ -348,6 +349,9 @@ body {
 .fix .fixes .fixcolumn2 .col h2 img {
   width: 5%;
 }
+.fix .fixes .fixcolumn2 .col .pink {
+  display: flex;
+}
 
 .fixbrand {
   margin: 50px 0;
@@ -379,7 +383,7 @@ body {
   text-align: center;
 }
 .request img {
-  display: block;
+  text-align: center;
 }
 .request .reqcolumn {
   text-align: left;
@@ -391,8 +395,29 @@ body {
   box-shadow: 0px 0px 30px rgba(0, 35, 125, 0.237);
 }
 .request button {
-  background-color: white;
-  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 0px 30px rgba(0, 35, 125, 0.237);
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(255, 0, 92);
+  padding: 10px 30px;
+  border-style: none;
+  color: rgb(0, 0, 0);
+  width: 200px;
+}
+.request button img {
+  wwidth: 5%;
+}
+.request .requestbutton22 {
+  box-shadow: 0px 0px 30px rgba(0, 35, 125, 0.237);
+  align-items: center;
+  display: flex;
+  background-color: rgb(255, 0, 92);
+  border-color: rgb(255, 0, 92);
+  padding: 10px 30px;
+  border-style: none;
+  color: rgb(0, 0, 0);
+  width: 220px;
 }
 
 .action {
@@ -410,6 +435,16 @@ body {
 }
 .action .change .rub {
   display: flex;
+}
+.action .change button {
+  box-shadow: 0px 0px 30px rgba(0, 35, 125, 0.237);
+  align-items: center;
+  background-color: rgb(255, 0, 92);
+  border-color: rgb(255, 0, 92);
+  padding: 10px 30px;
+  border-style: none;
+  color: rgb(255, 255, 255);
+  wwidth: 220px;
 }
 
 .callmaster {
@@ -438,6 +473,9 @@ body {
   padding: 6px 20px;
   margin: 5% 0;
   background: rgb(255, 0, 92);
+  color: white;
+  border-color: rgb(255, 0, 92);
+  border-style: solid;
 }
 .callmaster .two .form input {
   margin: 5% 0;
@@ -659,6 +697,120 @@ footer {
   }
   .action .change .rub {
     display: block;
+  }
+  .callmaster {
+    display: none;
+  }
+  .hiddendiv {
+    text-align: center;
+    display: block;
+  }
+  .hiddendiv input {
+    margin: 20px 0;
+    width: 90%;
+    text-align: center;
+    display: block;
+    padding: 10px 20px;
+    border-color: lightgray;
+    border-style: solid;
+    color: rgb(186, 186, 186);
+  }
+  .hiddendiv button {
+    border-color: rgb(255, 0, 92);
+    padding: 10px 16px;
+    background-color: rgb(255, 0, 92);
+    color: white;
+  }
+  .howwework .zvonok3 {
+    display: block;
+  }
+  .howwework .zvonok3 .zvonok {
+    margin: 5% 0;
+  }
+  .howwework .agreement {
+    display: block;
+  }
+  .service {
+    display: none;
+  }
+  .callkurer {
+    display: none;
+  }
+  .contacts .threeall .three {
+    display: block;
+  }
+  .contacts .threeall .three .tel {
+    border: none;
+    width: 80%;
+  }
+  .paragraph .hidepar {
+    display: none;
+  }
+  .about {
+    display: block;
+  }
+  .about .info {
+    border: none;
+    width: 80%;
+  }
+  .about .info .hiden {
+    display: none;
+  }
+}
+@media (max-width: 1000px) {
+  .container {
+    margin: 0 2%;
+  }
+  #hideall {
+    display: none;
+  }
+  .center {
+    width: 100%;
+  }
+  .chosen .columns {
+    display: block;
+  }
+  .chosen .columns .hide {
+    display: none;
+  }
+  .fix .fixes {
+    display: block;
+  }
+  .fix .fixes .fixcolumn2 {
+    width: 100%;
+  }
+  .fix .fixes .fixcolumn2 .s7 .parag {
+    display: block;
+  }
+  .fix .fixes .fixcolumn2 .hiden {
+    display: none;
+  }
+  .fixbrand .brands {
+    display: block;
+  }
+  .fixbrand .brands .two {
+    width: 100%;
+  }
+  .fixbrand .brands .two .first {
+    text-align: center;
+  }
+  .fixbrand .brands .hiden {
+    display: none;
+  }
+  .request {
+    display: none;
+  }
+  .action .change .rub {
+    display: block;
+  }
+  .action .change button {
+    background-color: rgb(255, 0, 92);
+    color: white;
+    margin: 1% 0;
+    width: 100%;
+    padding: 10px;
+    border-color: rgb(255, 0, 92);
+    border-style: none;
   }
   .callmaster {
     display: none;
